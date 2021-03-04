@@ -1,0 +1,225 @@
+body{
+	background-color: #E0E0E0;
+}
+.page-container{
+	width: 100%;
+	height: 100%;
+	background: url(https://trade.m.xiaomiyoupin.com/youpin/static/m/res/images/common/bg_page_header.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+}
+.page-header{
+	height: 23.466666vw;
+	flex-shrink: 0;
+	color: #fff;
+}
+.page-content{
+	flex-grow: 1;
+	overflow: hidden;
+}
+.page-footer{
+	height: 14.4vw;
+	flex-shrink: 0;
+	background-color: #fff;
+}
+.page-header-container{
+	height: 100%;
+	display: flex;
+	
+}
+.page-header-container_left{
+	width: 8.2vw;
+	padding-left: 2vw;
+	height: 100%;
+	flex-shrink: 0;
+}
+.page-header-container div{
+	height: 100%;
+	text-align: center;
+	line-height: 23.466666vw;
+}
+.page-header-container_conter{
+	height: 100%;
+	flex-grow: 1;
+}
+.page-header-container_right{
+	height: 100%;
+	width: 15.2vw;
+	flex-shrink: 0;
+}
+.iconback{
+	font-size: 8vw;
+}
+.page-header-container_conter-title{font-size: 5.5vw;font-weight: 700;}
+.editor-btn,.accomplish-btn{font-size: 4vw;display: none;}
+.editor-btn.show,.accomplish-btn.show{display: inline-block;}
+.container{
+	margin: 3vw;
+	background-color: #fff;
+	border-radius: 3vw;
+}
+ul.goods-list{}
+
+.goods-list-item{
+	background-color: #fff;
+	border-radius: 3vw;
+	border-top: 1px solid #FDF9F1;
+}
+.goods-list-item_title{
+	height: 11.733333vw;
+	display: flex;
+	align-items: center;
+}
+.goods-list-item_title-text{
+	margin-left: 3vw;
+}
+.check-box,.item_title-check-box,.page-footer-check-box{
+	overflow: hidden;
+	width: 4vw;
+	height: 4vw;
+	line-height: 3vw;
+	margin-left: 3vw;
+	border-radius: 50%;
+	text-align: center;
+	border: 1px solid #aaa;
+	
+}
+.check-box.show,.item_title-check-box.show,.page-footer-check-box.show{
+	background-color: #B85C00;
+}
+.iconduihao{
+	font-size: 2vw;
+	color: #fff;
+}
+.goods-list-item_content-top{
+	
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+}
+.productInformation{
+	margin-left: 3vw;
+	display: flex;
+}
+.productImg{
+	padding: 2vw;
+}
+.product-text{
+	padding: 2vw 0;
+}
+.productImg img{
+	width: 22.933333vw;
+	height: 22.933333vw;
+}
+.prodocut-price{
+	margin-top: 3vw;
+	width: 53vw;
+	height: 8vw;
+}
+.price-item{
+	float: left;
+	color: #B85C00;
+	font-size: 3vw;
+}
+.price-item>span{
+	font-size: 4vw;
+}
+.pro-num{
+	float: right;
+	height: 6vw;
+	overflow: hidden;
+}
+button.dec-btn,button.add-btn,input.amount_input{
+	border: none;
+	outline: none;
+	height: 6vw;
+	float: left;
+}
+input.amount_input{
+	width: 8vw;
+	height: 6vw;
+	text-align: center;
+	color: #333333;
+	background-color: #eeeeee;
+}
+button.dec-btn,button.add-btn{
+	background-color: #fff;
+	width: 8vw;
+	font-size: 5vw;
+}
+button.dec-btn.darken,button.add-btn.darken{
+	color: #999999;
+}
+.goods-list-item_title,ul.goods-list,.noGoods{
+	display: none;
+}
+.goods-list-item_title.active{
+	display: flex;
+}
+ul.goods-list.active{
+	display: block;
+}
+.noGoods.active{
+	display: block;
+}
+.noGoods.active{
+	height: 20vw;
+	line-height: 20vw;
+	color: #666;
+	font-size: 5vw;
+	text-align: center;
+	background-color: #E0E0E0;
+	margin-top: 40vw;
+}
+
+.page-content-container{
+	height: 100%;
+	overflow: auto;
+}
+.page-footer>div{
+	height: 100%;
+	padding: 0 3vw;
+}
+.page-footer_left{
+	height: 100%;
+	float: left;
+	line-height: 14.4vw;
+}
+.page-footer-check-box{
+	float: left;
+	margin: 4.8vw 0;
+}
+.page-footer_left{
+	float: left;
+}
+.page-footer_right-account,.page-footer_right-delete{
+	height: 100%;
+	float: right;
+	display: none;
+}
+.page-footer_right-account.show,.page-footer_right-delete.show{
+	display: block;
+}
+.settlement-price{
+	/* height: ; */
+	float: left;
+	margin: 4.5vw 0;
+}
+.settlement-price span{
+	color: #D91A15;
+	font-size: 4vw;
+}
+.settlement-btn,.delete-btn{
+	height: 10vw;
+	width: 20vw;
+	color: #fff;
+	font-weight: 600;
+	line-height: 10vw;
+	text-align: center;
+	float: right;
+	margin: 2.3vw 0 0 1vw;
+	border-radius: 5vw;
+	background-color: #D91A15;
+}

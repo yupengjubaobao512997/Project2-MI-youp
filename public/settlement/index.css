@@ -1,0 +1,301 @@
+body{
+	background-color: #E0E0E0;
+	overflow: hidden;
+}
+.page-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background: url(https://trade.m.xiaomiyoupin.com/youpin/static/m/res/images/common/bg_page_header.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.page-header {
+	height: 23.466666vw;
+	color: #fff;
+	flex-shrink: 0;
+}
+.page-content {
+	flex-grow: 1;
+}
+
+.page-footer {
+	height: 14.4vw;
+	flex-shrink: 0;
+	background-color: #fff;
+}
+.page-header-container{
+	height: 100%;
+	display: flex;
+	
+}
+.page-header-container_left{
+	width: 8.2vw;
+	padding-left: 2vw;
+	height: 100%;
+	flex-shrink: 0;
+}
+.page-header-container div{
+	height: 100%;
+	text-align: center;
+	line-height: 23.466666vw;
+}
+.page-header-container_conter{
+	height: 100%;
+	flex-grow: 1;
+}
+.page-header-container_right{
+	height: 100%;
+	width: 12.2vw;
+	flex-shrink: 0;
+}
+.iconback{
+	font-size: 8vw;
+}
+.page-header-container_conter-title{font-size: 5.5vw;font-weight: 700;}
+.page-footer-container{
+	height: 100%;
+	padding: 0 3vw;
+	
+}
+.page-footer_left{
+	float: left;
+	height: 100%;
+	font-size: 3.733333vw;
+	font-weight: 600;
+}
+.page-footer_left span{
+	line-height: 13vw;
+	height: 100%;
+}
+span.price-ft{
+	color: #BF1111;
+}
+.price-num{
+	font-size: 5vw;
+}
+.page-footer_right{
+	float: right;
+}
+.submit-btn{
+	height: 10vw;
+	width: 26vw;
+	line-height: 10vw;
+	background-color: #BF1111;
+	color: #fff;
+	font-size: 4vw;
+	font-weight: 600;
+	border-radius: 10vw;
+	margin-top: 2vw;
+	text-align: center;
+}
+
+.page-content-container{
+	padding: 0 3vw;
+}
+.page-content-container>div{
+	margin-bottom: 4vw;
+}
+.address-info{
+	padding: 3vw 2.5vw;
+	background-color: #fff;
+	border-radius: 3vw;
+	color: #333;
+}
+
+.product-info{
+	background-color: #fff;
+	border-radius: 3vw;
+	padding: 3vw 3vw;
+}
+
+.user-info{
+	height: 8vw;
+	font-size: 4.3vw;
+	font-weight: 600;
+}
+.user-name,.user-phone{
+	float: left;
+	margin-right: 5vw;
+}
+.address{
+	font-size: 3.466666vw;
+	height: 5vw;
+	line-height: 5vw;
+	color: #666;
+}
+.product-info-header{
+	font-size: 3.777777vw;
+	font-weight: 600;
+}
+
+.product-img img{
+	width: 22.933333vw;
+	height: 22.933333vw;
+}
+.product-info-content{
+	display: flex;
+}
+.product-img{
+	flex-shrink: 0;
+}
+.product-text{
+	flex-grow: 1;
+	padding-left: 3vw;
+}
+.product-name{
+	font-size: 3.7333333vw;
+	font-weight: 400;
+	color: #333;
+}
+.product-price{
+	margin-top: 2vw;
+	height: 5vw;
+}
+.product-per-price{
+	float: left;
+	color: #BF1111;
+}
+.product-num{
+	float: right;
+	font-size: 4vw;
+	font-weight: 500;
+}
+.salesReturn{
+	margin-top: 3vw;
+	font-size: 2.5vw;
+}
+.price-num{
+	font-size: 4vw;
+}
+.page-address{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5000;
+	background-color: rgb(0,0,0,0.5);
+}
+.page-address.show{
+	display: block;
+}
+.address-pop-up{
+	height: 106vw;
+	width: 100%;
+	border-radius: 6vw;
+	background-color: #fff;
+	position: absolute;
+	bottom: -6vw;
+}
+.address-pop-up-header{
+	display: flex;
+	height: 15.466666vw;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.delete-btn{
+	border-radius: 50%;
+	overflow: hidden;
+	width: 5.333333vw;
+	height: 5.333333vw;
+	border: 1px solid #aaa;
+	text-align: center;
+	line-height: 5.333333vw;
+	color: #aaa;
+	position: absolute;
+	right: 5vw;
+	top: 5vw;
+}
+.address-pop-up-header-title{
+	font-weight: 600;
+}
+li.address-lest-item{
+	padding: 3.5vw;
+	color: #555;
+}
+.address-lest-item-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.address-lest-item_left{
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.address-lest-item_right{
+	width: 6.4vw;
+	height: 6.4vw;
+	flex-shrink: 0;
+}
+.check{
+	color: #fff;
+	border-radius: 50%;
+	height: 4.5vw;
+	width: 4.5vw;
+	text-align: center;
+	line-height: 4.5vw;
+	overflow: hidden;
+	border: 1px solid #B85C00;
+}
+.check.show{
+	background-color: #B85C00;
+}
+.address-ifo{
+	width: 74.4vw;
+	padding: 0 3vw;
+}
+.userIfo{
+	height: 6vw;
+	font-size: 3.733333vw;
+}
+.userName{
+	float: left;
+	
+}
+.userPhone{
+	float: right;
+}
+.userAddressIfo{
+	margin-top: 2vw;
+	font-size: 3vw;
+}
+.modification-btn{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	line-height: 6.4vw;
+	text-align: center;
+	border: none;
+	outline: none;
+	background-color: #fff;
+}
+.iconxiugai{
+	font-size: 5vw;
+}
+.address-pop-up-footer{
+	position: absolute;
+	bottom: 10vw;
+	width: 100%;
+	height: 11vw;
+	display: flex;
+	justify-content: center;
+}
+.newAdd-btn{
+	width: 90%;
+	height: 10.666666vw;
+	background-color: rgb(245, 90, 55);
+	border-radius: 10vw;
+	line-height: 10.666666vw;
+	text-align: center;
+	color: #fff;
+	font-size: 4vw;
+	font-weight: 600;
+}
+	

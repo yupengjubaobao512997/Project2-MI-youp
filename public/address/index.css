@@ -1,0 +1,92 @@
+.address-container{
+    display: flex;
+    box-sizing: border-box; 
+    flex-direction: column;
+    padding: 30px 8px;
+    height: 100%;
+    background-color: #e0e0e0;
+
+}
+.address-header{
+    height: 12vw; 
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+.address-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+div.address-content a{
+    display: inline-block;
+    width: 100%;
+}
+.address-header_title{
+    display: flex;
+    width: 100%;
+}
+.address-header_title-text{
+    flex-grow: 1;
+    text-align: center;
+}
+.address-content_top{
+    flex-grow: 1;
+    overflow: auto;
+}
+.address-content_btn{
+    flex-shrink: 0;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 0;
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+}
+
+.address-list>li{
+    height: 25vw;
+    width: 96%;
+    border-bottom: 1px solid #666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	background-color: #fff;
+	padding: 0 2vw;
+	border-radius: 1vw;
+
+}
+.address-list>li a{
+    display: flex;
+    align-items: center;
+}
+.sign{width: 5vw;
+    height: 5vw;
+}
+.sign img{
+    width: 100%;
+    height: 100%;
+}
+.address-list_left{
+    width: 88vw;
+}
+.address-list_left_top{
+    display: flex;
+    font: 4vw/5vw font-family;
+}
+.receiveName{
+    width: 60vw;
+}
+.address{font: 3.2vw/4.5vw font-family;}
+.default{
+    height: 6vw;
+    line-height: 6vw;
+}
+.default-show,.default-btn{
+    font-size: 3vw;
+	display: none;
+}
+.default-show.show,.default-btn.show{
+	display: inline-block;
+}

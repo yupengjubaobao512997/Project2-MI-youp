@@ -1,0 +1,77 @@
+.gray{
+	color: gray;
+}
+.register-title{
+	margin-top: 15vw;
+	text-align: center;
+	font-weight: 300;
+}
+.page-content{
+	margin-top: 10vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.demo-phone,.demo-pwd{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	box-sizing: border-box;
+}
+.userName,.userPwd,.userPwds,.usePhone{
+	height: 20vw;
+	width: 100%;
+	padding-left: 10vw;
+	
+}
+.text{
+	display: inline-block;
+	width: 20vw;
+	float: left;
+	margin-top: 2vw;
+}
+input{
+	border: none;
+	border-bottom: 1px solid #999;
+	outline: none;
+	width: 70vw;
+	height: 8vw;
+	float: left;
+	
+}
+.btn-register-pwd,.btn-register-phone,.btn-toggle{
+	width: 80vw;
+	height: 13vw;
+	color: #fff;
+	border-radius: 6.5vw;
+	border: none;
+	outline: none;
+	background-color: #FF4500;
+	margin-bottom: 6vw;
+	font-weight: 600;
+	font-size: 4.5vw;
+}
+.pwd,.phone{
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.pwd.show,.phone.show{
+	display: flex;
+}
+form.demo-pwd,form.demo-phone{
+	height: 75vw;
+}
+.page-container{
+	overflow: hidden;
+	background: url(https://shop.io.mi-img.com/app/shop/img?id=shop_dfa89d9b977aa2f32346a1e2e3ecb838.png&w=750&h=1334);
+	background-size: cover;
+}
+.btn-toggle{
+	background: rgb(0,0,0,0.08);
+	color: #333;
+}
+	
